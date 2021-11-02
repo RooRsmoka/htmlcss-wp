@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .page-container {
@@ -18,16 +19,40 @@
 /***********************************/
 /* Header */
 header {
-    background-color: #E579E6;
-    height: 70px;
     margin-bottom: 20px;
 }
+
+.logo {
+    width: 175px;
+    padding-right: 25px;
+    border-right: 3px #E5E5E5 solid;
+}
 /* / Header */
+
+/* Navbar */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #858585;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* / Navbar */
 
 /* Main */
 main {
     height: 330px;
-    background-color: #E1D67A;
     margin-bottom: 20px;
 }
 /* / Main */
