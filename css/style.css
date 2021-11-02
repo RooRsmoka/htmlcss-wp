@@ -134,6 +134,15 @@ h4 {
 
 /* Footer */
 footer {
-    margin-top: 10px;
+    margin-top: 40px;
+}
+
+.credit {
+    text-align: center;
+}
+
+.heart {
+    font-size: 30px;
+    color: red;
 }
 /* / Footer */
