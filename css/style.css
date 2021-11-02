@@ -19,7 +19,7 @@
 /***********************************/
 /* Header */
 header {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .logo {
@@ -30,6 +30,10 @@ header {
 /* / Header */
 
 /* Navbar */
+nav {
+    margin-bottom: 40px;
+}
+
 nav ul {
     list-style: none;
 }
@@ -47,30 +51,43 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-
 /* / Navbar */
 
 /* Main */
 main {
-    height: 330px;
+    height: 500px;
+    background: url("../img/banner.jpg") no-repeat 50% 53%;
+    background-size: cover;
+    position: relative;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
+
+.main-bg {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.main-text {
+    width: 50%;
+    position: absolute;
+    bottom: 70px;
+    left: 40px;
+    color: #fff;
+}
+
 /* / Main */
 
 /* Content box */
 .content-box {
-    background-color: #0086FF;
 }
 
 .content-header {
-    background-color: #ABCFE7;
-    height: 50px;
     margin-bottom: 15px;
 }
 
 .content {
-    background-color: #ABCFE7;
-    height: 450px;
     margin-bottom: 15px;
 }
 
@@ -90,7 +107,5 @@ main {
 /* Footer */
 footer {
     margin-top: 10px;
-    background-color: #8801FE;
-    height: 40px;
 }
 /* / Footer */
